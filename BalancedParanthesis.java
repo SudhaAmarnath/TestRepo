@@ -14,7 +14,7 @@ public class BalancedParanthesis {
 		Stack<Character> st = new Stack<>();
 		for (char ch : str.toCharArray()) {
 			if (ch == '(' || ch == '[' || ch == '{') {
-				st.push(ch);
+				st.push(ch);//checking string
 			}else {
 				if (st.isEmpty()) {
 					return false;
